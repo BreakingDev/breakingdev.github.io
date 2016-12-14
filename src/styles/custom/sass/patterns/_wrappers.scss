@@ -1,0 +1,27 @@
+
+/* ==========================================================================
+    CONTENT WRAPPER
+   ========================================================================== */
+
+.wrapper {
+    width: 100%;
+    max-width: $wrapper-width;
+	padding-left: 15px;
+	padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    
+    &.wrapper--lg {
+        max-width: $wrapper-width-lg;
+    }
+
+    &.wrapper--md {
+        max-width: $wrapper-width-md;
+    }
+    
+    & > .content {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}

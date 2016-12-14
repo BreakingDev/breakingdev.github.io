@@ -1,0 +1,41 @@
+
+/* ==========================================================================
+    HEADINGS
+   ========================================================================== */
+
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
+    display: block;
+    color: $heading-color;
+    font-family: $heading-family;
+    font-weight: $heading-weight;
+}
+
+h1,
+.alpha {
+    font-size: 60px;
+}
+
+h2,
+.beta {
+    font-size: 42px;
+}
+
+h3,
+.gamma {
+    font-size: 32px;
+}
+
+h4,
+.delta {
+    font-size: 1em;
+}
+
+h5, .epsilon,
+h6, .zeta {
+    font-size: 1em;
+}

@@ -1,0 +1,44 @@
+/* BASE */
+/* ========================================================================== */
+// Imports files which generate no output but are used by other modules.
+@import "base/variables"; 
+@import "base/mixins"; 
+@import "base/helpers"; 
+@import "base/reset"; 
+
+/* ELEMENTS */
+/* ========================================================================== */
+//
+// Global styles applicable primarily to named html
+// elements, like <body>, <table>. <header>, <footer> and
+// <main> are too generic and included as sections, below.
+@import "elements/root";
+
+@import "elements/headings";
+@import "elements/images";
+@import "elements/lists";
+
+/* MODULES */
+/* ========================================================================== */
+// Document-level structural elements and specific page regions.
+@import "modules/footer";
+@import "modules/header";
+
+/* PATTERNS */
+/* ========================================================================== */
+//
+// The following are re-usable 'objects' that bring recurring CSS patterns
+// into discrete and easily maintainable modules.
+@import "patterns/buttons";
+@import "patterns/diamonds";
+@import "patterns/grid";
+@import "patterns/rows";
+@import "patterns/wrappers";
+
+/* VIEWS */
+/* ========================================================================== */
+// CSS specific to individual component views, eg:
+
+/* VENDOR */
+/* ========================================================================== */
+// Any CSS targetting third-party code.

@@ -1,0 +1,22 @@
+{
+  "name": "Code 7 scaffold",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Code 7 <info@code7.co.uk>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
