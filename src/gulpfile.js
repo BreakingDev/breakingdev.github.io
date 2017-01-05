@@ -155,7 +155,7 @@ gulp.task('build', ['minifycss', 'uglifyjs']);
 
 gulp.task('serve', ['build'], function (){
     browserSync.init({
-        proxy: "bozboz:8888"
+        proxy: "movem:8888"
     })
 
     gulp.watch("../**/*.html").on("change", reload);

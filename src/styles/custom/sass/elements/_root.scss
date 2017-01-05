@@ -8,7 +8,7 @@ html {
     background: $root-background;
     box-sizing: border-box;
     color: $root-color;
-    overflow-y: scroll;
+    height: 100%;
 
     -ms-overflow-style: -ms-autohiding-scrollbar;
     -ms-text-size-adjust: 100%;
@@ -28,13 +28,23 @@ html {
 /* Style the body element styles. */
 body {
     background: $body-background;
-
+    background-image: url("/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
     font-family: $root-family;
     font-size: $root-size;
     font-weight: $root-weight;
     line-height: $root-lineheight;
+    height: 100%;
 
     @include font-smoothing;
+}
+
+.page-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
 }
 
 /* Colour selected text. */
@@ -53,7 +63,7 @@ body {
 // Typography 
 
 h1, h2, h3 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 h4, h5, h6, p, ul {
     margin-bottom: 2em;

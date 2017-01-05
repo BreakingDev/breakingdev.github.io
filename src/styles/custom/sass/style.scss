@@ -21,8 +21,6 @@
 /* MODULES */
 /* ========================================================================== */
 // Document-level structural elements and specific page regions.
-@import "modules/footer";
-@import "modules/header";
 
 /* PATTERNS */
 /* ========================================================================== */
@@ -30,9 +28,10 @@
 // The following are re-usable 'objects' that bring recurring CSS patterns
 // into discrete and easily maintainable modules.
 @import "patterns/buttons";
-@import "patterns/diamonds";
+@import "patterns/forms";
 @import "patterns/grid";
-@import "patterns/rows";
+@import "patterns/modals";
+@import "patterns/overlay";
 @import "patterns/wrappers";
 
 /* VIEWS */

@@ -1,0 +1,33 @@
+.modal {
+	background-color: white;
+	left: 50%;
+	max-width: 95%;
+	opacity: 0;
+	padding: 20px;
+	position: fixed;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%) scale(0.7);
+	transition: all 0.3s;
+	width: 540px;
+	z-index: -1;
+
+	&.modal-show {
+		opacity: 1;
+		transform: translateX(-50%) translateY(-50%) scale(1);
+		z-index: 10;
+	}
+}
+
+.modal-close {
+	color: $primary-color;
+	cursor: pointer;
+	font-size: 24px !important;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	transition: all 0.3;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}

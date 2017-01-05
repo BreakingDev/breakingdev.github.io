@@ -1,0 +1,13 @@
+.form-control {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: block;
+	font: inherit;
+	margin-bottom: 1em;
+	padding: 15px;
+	width: 100%;
+
+	&:valid {
+		border-color: #3fb162;
+	}
+}
